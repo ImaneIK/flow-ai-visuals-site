@@ -50,7 +50,7 @@ export default function ParticlesBackground() {
             color: "#22c55e",
             distance: 150,
             enable: true,
-            opacity: 0.2,
+            opacity: 0.5,
             width: 1,
           },
           collisions: {
@@ -74,11 +74,11 @@ export default function ParticlesBackground() {
             value: 80,
           },
           opacity: {
-            value: 0.3,
+            value: 0.7,
             animation: {
               enable: true,
               speed: 0.5,
-              minimumValue: 0.1,
+              minimumValue: 0.3,
             },
           },
           shape: {

@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground relative overflow-x-hidden">
+    <div className="min-h-screen text-foreground relative overflow-x-hidden">
       {/* Particles background */}
       <ParticlesBackground />
       
