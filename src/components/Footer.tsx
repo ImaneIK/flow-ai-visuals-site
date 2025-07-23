@@ -24,7 +24,7 @@ export default function Footer() {
             <div>
               <h3 className="text-2xl font-bold ">
               <span className="text-foreground">AH</span>
-              <span className="text-green-500">DIGITAL</span>
+              <span className="text-foreground">DIGITAL</span>
               </h3>
               <p className="text-sm text-muted-foreground font-semibold">Automation</p>
             </div>

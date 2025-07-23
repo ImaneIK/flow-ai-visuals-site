@@ -24,7 +24,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <img src="/images/logoAH.png" className="w-auto h-12" />
           <h1 className="text-xl font-bold">
-            <span className="text-foreground/70">AH</span>
+            <span className="text-white">AH</span>
             <span className="text-white">DIGITAL</span>
           </h1>
           {/* <p className="text-xs text-muted-foreground font-semibold hidden sm:block">AHDIGITAL</p> */}
