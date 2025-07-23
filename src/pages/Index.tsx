@@ -5,10 +5,14 @@ import ProcessSection from "@/components/ProcessSection";
 import ServicesSection from "@/components/ServicesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import Introduction from "@/components/Introduction";
+import FloatingSphere from "@/components/ui/sphere";
+import ProjetsSection from "@/components/Projects";
+import SocialGrid from "@/components/socials";
 
 const Index = () => {
   return (
-    <div className="min-h-screen text-foreground relative overflow-x-hidden">
+    <div className="min-h-screen text-foreground relative ">
       {/* Particles background */}
       <ParticlesBackground />
       
@@ -18,8 +22,10 @@ const Index = () => {
       {/* Main content */}
       <main className="relative z-10">
         <HeroSection />
+        <Introduction /> 
         <ProcessSection />
         <ServicesSection />
+        <ProjetsSection></ProjetsSection>
         <ContactSection />
       </main>
       
