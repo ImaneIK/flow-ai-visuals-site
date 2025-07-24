@@ -1,6 +1,6 @@
-import FramerIcon from "/images/logoAH.png";
-import OpenAIcon from "/images/figma.svg";
-import AirtableIcon from "/images/figma.svg";
+import FramerIcon from "/images/framer.svg";
+import OpenAIcon from "/images/openai.svg";
+import AirtableIcon from "/images/airtable.svg";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import { useEffect } from "react";
 import FeatureCard from "./ui/FeatureCard";

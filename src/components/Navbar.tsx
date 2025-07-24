@@ -22,10 +22,9 @@ export default function Navbar() {
       <div className="flex justify-between items-center ">
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src="/images/logoAH.png" className="w-auto h-12" />
+          <img src="/images/logoAH.svg" className="w-auto h-12" />
           <h1 className="text-xl font-bold">
-            <span className="text-white">AH</span>
-            <span className="text-white">DIGITAL</span>
+            <span className="text-white">AHDIGITAL</span>
           </h1>
           {/* <p className="text-xs text-muted-foreground font-semibold hidden sm:block">AHDIGITAL</p> */}
         </div>

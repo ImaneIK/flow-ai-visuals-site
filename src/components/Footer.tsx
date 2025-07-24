@@ -20,11 +20,11 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 flex">
-            <img src="/images/logoAH.png" className="h-12 w-full"/>
+            <img src="/images/logoAH.svg" className="h-12 w-auto"/>
             <div>
-              <h3 className="text-2xl font-bold ">
-              <span className="text-foreground">AH</span>
-              <span className="text-foreground">DIGITAL</span>
+              <h3 className="text-2xl flex font-bold ">
+              <span className="text-foreground">AHDIGITAL</span>
+             
               </h3>
               <p className="text-sm text-muted-foreground font-semibold">Automation</p>
             </div>
