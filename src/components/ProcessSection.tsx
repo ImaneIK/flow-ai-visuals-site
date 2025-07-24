@@ -50,7 +50,7 @@ export default function Features() {
   
 
   return (
-    <section  id="features" className="relative py-24 lg:px-20 overflow-hidden ">
+    <section  id="process" className="relative py-24 lg:px-20 overflow-hidden ">
       <motion.div
         
         className="absolute w-[1000px] h-[1000px]  blur-[120px] rounded-full"
