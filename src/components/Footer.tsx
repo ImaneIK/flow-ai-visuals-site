@@ -20,7 +20,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 flex">
-            <img src="/images/logoAH.svg" className="h-12 w-auto"/>
+            <img src="/images/logoAH.png" className="h-12 w-auto"/>
             <div>
               <h3 className="text-2xl flex font-bold ">
               <span className="text-foreground">AHDIGITAL</span>
