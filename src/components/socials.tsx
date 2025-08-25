@@ -18,10 +18,10 @@ const socialLinks = [
     icon: <Facebook />,
     url: "https://www.facebook.com/people/Ahdigital/61570213799534/?_rdc=1&_rdr",
   },
-  {
-    icon: WhatsAppIcon,
-    url: "https://api.whatsapp.com/send/?phone=212636308953&text&type=phone_number&app_absent=0",
-  },
+  // {
+  //   icon: WhatsAppIcon,
+  //   url: "https://api.whatsapp.com/send/?phone=212636308953&text&type=phone_number&app_absent=0",
+  // },
   {
     icon: <Instagram />,
     url: "https://www.instagram.com/ahdigitalautomation/",
