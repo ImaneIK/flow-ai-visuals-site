@@ -59,7 +59,7 @@ const apresData = [
 
 export default function ComparisonSection() {
   return (
-    <section className="relative min-h-screen py-24 px-6 bg-transparent py-56" id='services'>
+    <section className="relative min-h-screen py-24 px-6 bg-transparent py-56" >
       {/* Cybernetic Background Grid */}
       <div className="absolute inset-0 cyber-grid opacity-20" />
       

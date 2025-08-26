@@ -81,8 +81,8 @@ export function ComparisonCard({ type, icon, title, description, index }: Compar
             text-sm leading-relaxed transition-colors duration-300
             ${
               isAvant
-                ? "text-destructive/70 group-hover:text-destructive/60"
-                : "text-primary/70 group-hover:text-primary/60"
+                ? "text-white/70 group-hover:text-white/60"
+                : "text-white/70 group-hover:text-white/60"
             }
           `}>
             {description}
