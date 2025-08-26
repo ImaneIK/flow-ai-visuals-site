@@ -145,7 +145,7 @@ export default function ComparisonSection() {
 
 
           <h2 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6 ">
-          Cas <span className="text-lime-200">Client Général </span>
+          Cas <span className="text-lime-200">Client</span>
         </h2>
 
           <motion.p 
