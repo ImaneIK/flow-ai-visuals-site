@@ -101,6 +101,13 @@ export default function ProjetsSection() {
           </AnimatePresence>
         </div>
       </div>
+      {/* Bottom accent line */}
+            <motion.div
+              className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary to-transparent"
+              initial={{ scaleX: 0 }}
+              animate={{ scaleX: 1 }}
+              transition={{ duration: 2, delay: 2 }}
+            />
     </section>
   );
 }
