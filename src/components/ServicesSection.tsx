@@ -168,7 +168,7 @@ export default function ServicesSection() {
   }, []);
 
   return (
-    <div ref={containerRef} className="relative w-full h-screen overflow-visible py-12 mb-24" id='services'>
+    <div ref={containerRef} className="relative w-full  min-h-[120vh] overflow-visible py-12 mb-24" >
       <h2 className="mx-auto py-24 text-6xl md:text-7xl lg:text-8xl font-medium mt-6 text-center max-w-2xl">
             <span>Nos</span>{" "}
             <span className="text-lime-200"> Services </span>

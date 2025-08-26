@@ -15,8 +15,8 @@ const Index = () => {
     <div className="min-h-screen text-foreground relative ">
       <WhatsAppFloatingButton
         phone="212752515421"
-        message="Salam! Je veux plus d'infos 🙂"
-        label="WhatsApp us"
+        message="Bonjour, je voudrais plus d'infos."
+        label="Contactez nous"
       />
       {/* Particles background */}
       <ParticlesBackground />
@@ -29,7 +29,7 @@ const Index = () => {
         <HeroSection />
         <Introduction /> 
         <ProcessSection />
-        <ServicesSection />
+        {/* <ServicesSection /> */}
         <ComparisonSection />
         <ProjetsSection />
         <ContactSection />

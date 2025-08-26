@@ -66,4 +66,12 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+
+  .react-flow__viewport {
+  overflow: visible !important;
+}
+
+.react-flow__renderer {
+  overflow: visible !important;
+}
 }
