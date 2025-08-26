@@ -6,10 +6,9 @@ import ServicesSection from "@/components/ServicesSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import Introduction from "@/components/Introduction";
-import FloatingSphere from "@/components/ui/sphere";
 import ProjetsSection from "@/components/Projects";
-import SocialGrid from "@/components/socials";
 import WhatsAppFloatingButton from "@/components/ui/WhatsAppFloatingButton";
+import ComparisonSection from "@/components/Comparaison";
 
 const Index = () => {
   return (
@@ -31,7 +30,8 @@ const Index = () => {
         <Introduction /> 
         <ProcessSection />
         <ServicesSection />
-        <ProjetsSection></ProjetsSection>
+        <ComparisonSection />
+        <ProjetsSection />
         <ContactSection />
       </main>
       
