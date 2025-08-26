@@ -57,9 +57,9 @@ const apresData = [
   }
 ];
 
-export default function CyberComparisonSection() {
+export default function ComparisonSection() {
   return (
-    <section className="relative min-h-screen py-24 px-6 overflow-hidden bg-background">
+    <section className="relative min-h-screen py-24 px-6 bg-transparent mt-56 py-56">
       {/* Cybernetic Background Grid */}
       <div className="absolute inset-0 cyber-grid opacity-20" />
       
@@ -134,7 +134,6 @@ export default function CyberComparisonSection() {
           >
             <motion.span 
               className="text-2xl"
-              animate={{ rotate: 360 }}
               transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
             >
               🌐
@@ -144,14 +143,6 @@ export default function CyberComparisonSection() {
             </span>
           </motion.div>
 
-          {/* <motion.h2 
-            className="text-6xl lg:text-8xl font-bold text-center mt-6 py-4 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
-            Cas <span className="cyber-glitch" data-text="Client Général">Client Général</span>
-          </motion.h2> */}
 
           <h2 className="text-6xl md:text-7xl lg:text-8xl font-medium text-center mt-6 ">
           Cas <span className="text-lime-200">Client Général </span>
@@ -182,18 +173,7 @@ export default function CyberComparisonSection() {
               transition={{ duration: 1, delay: 1 }}
             />
             
-            {/* Central node */}
-            {/* <motion.div 
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 bg-primary rounded-full cyber-glow-strong"
-              animate={{ 
-                scale: [1, 1.2, 1],
-                rotate: 360
-              }}
-              transition={{ 
-                scale: { duration: 2, repeat: Infinity },
-                rotate: { duration: 8, repeat: Infinity, ease: "linear" }
-              }}
-            /> */}
+            
             
             {/* Data flow indicators */}
             <motion.div
