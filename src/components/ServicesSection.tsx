@@ -66,11 +66,11 @@ export default function ServicesSection() {
             <span className="text-lime-200"> Services </span>
       </h2>
 
-      <picture className=' mx-auto py-12'>
+      <picture className=' mx-auto py-4'>
         <source className='scale-[130%]' media="(min-width: 1024px)" srcSet="/images/1.png" />
         <img className='scale-[100%]' src="/images/2.png" alt="Description of the image"  />
       </picture>
-      
+
     </div>
   );
 }
