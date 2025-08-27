@@ -68,7 +68,7 @@ export default function ServicesSection() {
 
       <picture className=' mx-auto py-12'>
         <source className='scale-[130%]' media="(min-width: 1024px)" srcSet="/images/1.png" />
-        <img src="/images/2.png" alt="Description of the image"  />
+        <img className='scale-[130%]' src="/images/2.png" alt="Description of the image"  />
       </picture>
 
       {/* <picture className='scale-[130%] mx-auto'>
