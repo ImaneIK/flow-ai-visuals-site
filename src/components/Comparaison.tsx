@@ -139,7 +139,7 @@ export default function ComparisonSection() {
               🌐
             </motion.span>
             <span className="text-sm font-mono text-primary uppercase tracking-wider">
-              Infrastructure de croissance AI
+              Infrastructure de croissance IA
             </span>
           </motion.div>
 
@@ -211,7 +211,7 @@ export default function ComparisonSection() {
               </motion.div>
               <div>
                 <h3 className="text-4xl font-bold text-destructive">AVANT</h3>
-                <p className="text-destructive/70 font-mono">SYSTÈME OBSOLÈTE</p>
+                <p className="text-white/70 font-mono">SYSTÈME OBSOLÈTE</p>
               </div>
             </div>
 
@@ -255,7 +255,7 @@ export default function ComparisonSection() {
               </motion.div>
               <div>
                 <h3 className="text-4xl font-bold text-primary">APRÈS</h3>
-                <p className="text-primary/70 font-mono">IA INTÉGRÉE 360°</p>
+                <p className="text-white/70 font-mono">IA INTÉGRÉE 360°</p>
               </div>
             </div>
 
