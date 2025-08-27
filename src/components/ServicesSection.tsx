@@ -59,22 +59,18 @@ function getCircularPosition(index: number, total: number, radius: number, cente
 export default function ServicesSection() {
   
   return(
-    <div className='flex flex-col justify-center' id='services'>
+    <div className='max-w-screen flex flex-col justify-center' id='services'>
       {/* import image for large screens and one for smaller screens */}
-      <h2 className="mx-auto py-4 text-6xl md:text-7xl lg:text-8xl font-medium mt-6 text-center max-w-2xl">
+      <h2 className="mx-auto py-4 text-6xl md:text-7xl lg:text-8xl font-medium mt-6 text-center ">
             <span>Nos</span>{" "}
             <span className="text-lime-200"> Services </span>
       </h2>
 
       <picture className=' mx-auto py-12'>
         <source className='scale-[130%]' media="(min-width: 1024px)" srcSet="/images/1.png" />
-        <img className='scale-[130%]' src="/images/2.png" alt="Description of the image"  />
+        <img className='scale-[100%]' src="/images/2.png" alt="Description of the image"  />
       </picture>
-
-      {/* <picture className='scale-[130%] mx-auto'>
-        <source media="(min-width: 1024px)" srcSet="/images/3.png" />
-        <img src="/images/3.png" alt="Description of the image"  />
-      </picture> */}
+      
     </div>
   );
 }
