@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
+import { ReactNode } from "react";
 
 interface ComparisonCardProps {
   type: "avant" | "apres";
-  icon: string;
+  icon: ReactNode;
   title: string;
   description: string;
   index: number;
