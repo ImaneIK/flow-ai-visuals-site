@@ -1,29 +1,30 @@
 import { motion } from "framer-motion";
 import { ComparisonCard } from "./ui/ComparaisonCard";
+import { BrainCircuit, Calendar, ChartBarIncreasing, ChartColumnIncreasing, CheckCircle, Clock, FileBarChart2, FileBarChartIcon, FileChartPie, FileClock, MessageSquareWarning, PersonStanding } from "lucide-react";
 
 const avantData = [
   {
-    icon: "⏳",
+    icon: <Clock />,
     title: "Perte de temps",
     description: "Processus manuels chronophages et répétitifs"
   },
   {
-    icon: "📉",
+    icon: <ChartBarIncreasing />,
     title: "Opportunités manquées", 
     description: "Prospects non suivis et relances oubliées"
   },
   {
-    icon: "📂",
+    icon: <FileBarChart2 />,
     title: "Données dispersées",
     description: "Informations éparpillées dans différents outils"
   },
   {
-    icon: "⚠️",
+    icon: <FileClock />,
     title: "Pas de suivi",
     description: "Aucune visibilité sur les performances commerciales"
   },
   {
-    icon: "😓",
+    icon: <MessageSquareWarning />,
     title: "Équipe sous pression",
     description: "Stress constant et charge de travail excessive"
   }
@@ -31,27 +32,27 @@ const avantData = [
 
 const apresData = [
   {
-    icon: "🤖",
+    icon: <BrainCircuit />,
     title: "Agent IA multicanal",
     description: "Réponses automatisées 24h/24 sur tous les canaux"
   },
   {
-    icon: "📊", 
+    icon: <ChartBarIncreasing />, 
     title: "CRM connecté",
     description: "Centralisation et synchronisation de toutes les données"
   },
   {
-    icon: "📅",
+    icon: <Calendar />,
     title: "Calendrier intelligent",
     description: "Planification automatique des rendez-vous et suivis"
   },
   {
-    icon: "🔄",
+    icon: <CheckCircle />,
     title: "Workflows automatisés", 
     description: "Processus optimisés et actions déclenchées automatiquement"
   },
   {
-    icon: "📈",
+    icon: <ChartColumnIncreasing />,
     title: "Tableau de bord",
     description: "Analytics en temps réel et insights prédictifs"
   }
@@ -274,7 +275,105 @@ export default function ComparisonSection() {
             </div>
           </motion.div>
         </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+       {/* Result */}
+<motion.h3 
+  className="my-8 p-4 text-center text-6xl font-bold text-primary"
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.4 }}
+>
+  Résultat
+</motion.h3>
+
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, delay: 0.4 }}
+  className="flex flex-wrap justify-center gap-8"
+>
+  {/* Card 1 */}
+<div className="relative flex-1 flex gap-4 p-4 rounded-lg border border-primary/30 bg-primary/10 backdrop-blur-sm">
+  {/* Animated scan line */}
+  <motion.div
+    className="absolute top-0 left-0 w-full h-0.5 
+               bg-gradient-to-r from-transparent via-primary to-transparent"
+    animate={{ x: ["0%", "0%"] }}
+    transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
+  />
+
+  <div className="flex-shrink-0 w-12 h-12 rounded-lg border-2 flex items-center justify-center text-xl cyber-hex transition-all duration-300 bg-primary/10 border-primary/30 group-hover:border-primary/50 group-hover:shadow-[0_0_20px_hsl(var(--primary)/0.3)]">
+    <CheckCircle className="w-8 h-8" />
+  </div>
+
+  <p>Temps de réponse instantané (au lieu d’heures ou jours).</p>
+</div>
+
+
+  {/* Card 2 */}
+  <div className="relative flex-1 flex gap-4 p-4 rounded-lg border border-primary/30 bg-primary/10 backdrop-blur-sm">
+    <motion.div
+      className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-primary to-transparent"
+      animate={{ x: ["0%", "0%"] }}
+      transition={{ duration: 5, repeat: Infinity, delay: 0.2, ease: "easeInOut" }}
+    />
+    <div className="flex-shrink-0 w-12 h-12 rounded-lg border-2 flex items-center justify-center text-xl cyber-hex transition-all duration-300 bg-primary/10 border-primary/30">
+      <ChartColumnIncreasing className="w-8 h-8" />
+    </div>
+    <p>Conversion clients +30% à +50%.</p>
+  </div>
+
+  {/* Card 3 */}
+  <div className="relative flex-1 flex gap-4 p-4 rounded-lg border border-primary/30 bg-primary/10 backdrop-blur-sm">
+    <motion.div
+      className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-primary to-transparent"
+      animate={{ x: ["0%", "0%"] }}
+      transition={{ duration: 5, repeat: Infinity, delay: 0.4, ease: "easeInOut" }}
+    />
+    <div className="flex-shrink-0 w-12 h-12 rounded-lg border-2 flex items-center justify-center text-xl cyber-hex bg-primary/10 border-primary/30">
+      <FileBarChart2 className="w-8 h-8" />
+    </div>
+    <p>Baisse de la charge de travail répétitive -40% à -60%.</p>
+  </div>
+
+  {/* Card 4 */}
+  <div className="relative flex-1 flex gap-4 p-4 rounded-lg border border-primary/30 bg-primary/10 backdrop-blur-sm">
+    <motion.div
+      className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-primary to-transparent"
+      animate={{ x: ["0%", "0%"] }}
+      transition={{ duration: 5, repeat: Infinity, delay: 0.6, ease: "easeInOut" }}
+    />
+    <div className="flex-shrink-0 w-12 h-12 rounded-lg border-2 flex items-center justify-center text-xl cyber-hex bg-primary/10 border-primary/30">
+      <PersonStanding className="w-8 h-8" />
+    </div>
+    <p>Clients plus satisfaits, équipe plus motivée, et croissance du chiffre d’affaires durable.</p>
+  </div>
+</motion.div>
+
+
       </div>
+
+      
       
       {/* Bottom accent line */}
       <motion.div
